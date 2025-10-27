@@ -40,3 +40,60 @@
 .read-the-docs {
   color: #888;
 }
+/* Basic layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Search section */
+input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Loading message */
+p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Weather cards container */
+.weather-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Each card */
+.weather-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 150px;
+}
+
+.weather-card h3 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.weather-card p {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
